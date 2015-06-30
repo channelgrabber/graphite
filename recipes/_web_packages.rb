@@ -27,7 +27,10 @@ python_pip 'django' do
   version lazy { node['graphite']['django_version'] }
 end
 
-python_pip 'django-tagging'
+python_pip 'django-tagging' do
+  version node['graphite']['django-tagging_version']
+end
+
 python_pip 'pytz'
 python_pip 'pyparsing'
 python_pip 'python-memcached'

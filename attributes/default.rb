@@ -20,6 +20,7 @@
 default['graphite']['version'] = '0.9.12'
 default['graphite']['twisted_version'] = '13.1'
 default['graphite']['django_version'] = '1.5.5'
+default['graphite']['django-tagging_version'] = '0.3.6'
 default['graphite']['password'] = 'change_me'
 default['graphite']['user'] = 'graphite'
 default['graphite']['group'] = 'graphite'
